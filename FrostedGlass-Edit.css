@@ -1,3 +1,18 @@
+/**
+ * @name Frosted Glass
+ * @author Gibbu#1211
+ * @version 2.2.0
+ * @description Display your picture of choice with adjustable blur and brightness. Dark theme is required.
+ * @invite ZHthyCw
+ * @authorId 174868361040232448
+ * @source https://github.com/DiscordStyles/FrostedGlass
+ * @website https://gibbu.me/
+*/
+
+/*
+Edit By Whitedragon
+*/
+
 @font-face {
     font-family: 'MainFont';
     src: url('https://cloud.dragoncode.dev/f/Ootv/XiaolaiSC-Regular.woff2') format('woff2');
@@ -16,7 +31,7 @@
 
 :root {
     /* Background image variables */
-    --background-image: url('https://dragon.drive/f/P9u3/14317e8f0060cb362ea6ac2a21573b73.jpg');
+    --background-image: url('https://cloud.dragoncode.dev/f/RDF5/ComfyUI_00053_.png');
     /* Main background image | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
     --background-image-blur: 5px;
     /* Blur intensity of --background-image | Must end in px | DEFAULT: 5px */
