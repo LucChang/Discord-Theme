@@ -156,24 +156,69 @@
 
 #app-mount {}
 
-#app-mount .interactive__972a0{
+#app-mount .channelTextAreaInner_d9be46{
+    border-radius: 0px !important;
+}
+
+#app-mount .placeholder__1b31f{
+    position: absolute;
+    left: 0;
+    right: 0;
+    
+    white-space: nowrap; /* ✅ 不換行 */
+    overflow-x: auto; /* ✅ 超出時允許滾動 */
+    text-overflow: clip; /* ✅ 讓超出的文字不被裁切 */
+    
+    color: var(--channel-text-area-placeholder);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    pointer-events: none;
+
+    z-index: 9999;
+}
+
+#app-mount .channelTextArea__74017 {
     transition: all 0.2s ease;
 }
 
-#app-mount .peopleListItem_cc6179{
+#app-mount .replyBar__841c8 {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 15px 15px 0px 0px;
+}
+
+#app-mount .stackedBars__74017 {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#app-mount .hasStackedBar__74017 {
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+}
+
+
+#app-mount .stackedBars__74017 {
+    transform: translateY(11px);
+}
+
+#app-mount .interactive__972a0 {
+    transition: all 0.2s ease;
+}
+
+#app-mount .peopleListItem_cc6179 {
     transition: all 0.2s ease-in-out;
 }
 
-#app-mount .itemCard__7e549{
+#app-mount .itemCard__7e549 {
     background-color: rgba(0, 0, 0, 0.24);
     transition: all 0.2s ease;
 }
 
-#app-mount .tutorialContainer__1f388{
+#app-mount .tutorialContainer__1f388 {
     padding-top: 10px;
 }
 
-#app-mount .inner_c0bea0.biteSize_c0bea0{
+#app-mount .inner_c0bea0.biteSize_c0bea0 {
     padding-bottom: 20px;
 }
 
@@ -294,7 +339,8 @@
 }
 
 #app-mount .scrollableContainer__74017 {
-    border-radius: 22px;
+    transition: all 0.2s ease;
+    border-radius: 20px;
     position: relative;
     bottom: -12px;
 }
